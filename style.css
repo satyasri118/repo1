@@ -1,0 +1,17 @@
+p{
+    font-size: 30px; background-color: burlywood; border-color:#080c08; border-radius: 2cm;border-width: 0.005cm;
+    border-style: outset;
+    
+}
+.text123{
+    color: blue;
+}
+.text123:hover{
+    color: blueviolet;
+}
+a{
+    color: black;
+}
+a:hover{
+    color: blueviolet;
+}

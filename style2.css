@@ -1,0 +1,27 @@
+.mydiv{
+    background-color: wheat;
+    color:black;
+    border: 5px dotted white;
+    width: 400px;
+    height: 200px;
+    margin: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    /*animation: bgchange 5s infinite;*/
+    animation: fontchange 5s infinite;
+    /* first one horizontal,vertical,blur*/
+    box-shadow: 10px 10px 5px black;
+}
+@keyframes bgchange{
+    from {background-color: wheat;}
+    to   {background-color:palevioletred;}
+}
+@keyframes fontchange{
+    from{font-size: 10px;}
+    to{font-size: 20px;}
+}
+/*horizontal menu using unordered lists*/
+.horizontalmenu li{
+    display:inline;
+    padding:20px;
+}
